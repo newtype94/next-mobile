@@ -2,15 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
-
+yarn 전역 설치
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm install yarn -g
 ```
+
+node module 설치
+프로젝트 루트 폴더(package.json)이 위치한 곳에서
+```bash
+yarn install
+```
+
+서버 구동
+```bash
+yarn dev
+```
+
+로컬 테스트
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
